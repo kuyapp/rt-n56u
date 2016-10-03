@@ -28,8 +28,8 @@
 #define SYS_USER_NOBODY		"nobody"
 #define SYS_GROUP_NOGROUP	"nogroup"
 
-#define DEF_WLAN_2G_CC		"GB"
-#define DEF_WLAN_5G_CC		"GB"
+#define DEF_WLAN_2G_CC		"CN"
+#define DEF_WLAN_5G_CC		"CN"
 #define DEF_WLAN_2G_SSID	"ASUS"
 #define DEF_WLAN_5G_SSID	"ASUS_5G"
 #define DEF_WLAN_2G_GSSID	"ASUS_GUEST"
@@ -39,7 +39,7 @@
 
 #define DEF_ROOT_PASSWORD	"admin"
 #define DEF_SMB_WORKGROUP	"WORKGROUP"
-#define DEF_TIMEZONE		"GMT0"
+#define DEF_TIMEZONE		"CST-8"
 #define DEF_NTP_SERVER0		"pool.ntp.org"
 #define DEF_NTP_SERVER1		"time.nist.gov"
 #define DEF_HTTPS_CIPH_LIST	"DH+AESGCM:DH+AES256:DH+AES:DH+3DES:RSA+AES:RSA+3DES:!ADH:!MD5:!DSS"
