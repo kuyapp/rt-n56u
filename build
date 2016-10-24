@@ -1,15 +1,15 @@
-apt-get -y install git
-apt-get -y install build-essential gawk pkg-config gettext automake autoconf libtool bison flex zlib1g-dev libgmp3-dev libmpfr-dev libmpc-dev texinfo mc autopoint
-mkdir /opt
-ln -s . /opt/rt-n56u/
-cd /opt/rt-n56u/toolchain-mipsel
-./clean_sources
-./clean_toolchain
-./build_toolchain
+sudo apt-get -y install git
+sudo apt-get -y install build-essential gawk pkg-config gettext automake autoconf libtool bison flex zlib1g-dev libgmp3-dev libmpfr-dev libmpc-dev texinfo mc autopoint
+sudo mkdir /opt
+sudo ln -s . /opt/rt-n56u/
+sudo cd /opt/rt-n56u/toolchain-mipsel
+sudo ./clean_sources
+sudo ./clean_toolchain
+sudo ./build_toolchain
 
-rm /opt/rt-n56u/trunk/.config
-cp /opt/rt-n56u/k2.config /opt/rt-n56u/trunk/.config
+sudo rm /opt/rt-n56u/trunk/.config
+sudo cp /opt/rt-n56u/k2.config /opt/rt-n56u/trunk/.config
 
-cd /opt/rt--n56u/trunk/
-./clear_tree
-./build_firmware
+sudo cd /opt/rt--n56u/trunk/
+sudo ./clear_tree
+sudo ./build_firmware
