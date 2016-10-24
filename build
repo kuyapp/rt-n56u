@@ -11,6 +11,6 @@ cd /opt/rt-n56u/toolchain-mipsel
 rm /opt/rt-n56u/trunk/.config
 cp /opt/rt-n56u/k2.config /opt/rt-n56u/trunk/.config
 
-cd /opt/rt--n56u/trunk/
+cd /opt/rt-n56u/trunk/
 ./clear_tree
 ./build_firmware
