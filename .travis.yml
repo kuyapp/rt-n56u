@@ -1,0 +1,12 @@
+language: c
+compiler:
+    - gcc
+script: "./build"
+branches:
+    only:
+        - master
+deploy:
+  provider: releases
+  api_key: 178cfe24177b2cc72c38c44e12a732f3e73ca8fa
+  file: trunk/images/RT-N56U_3.4.3.9-097.trx
+  skip_cleanup: true
