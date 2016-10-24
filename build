@@ -1,5 +1,3 @@
-sudo apt-get -y install git
-sudo apt-get -y install build-essential gawk pkg-config gettext automake autoconf libtool bison flex zlib1g-dev libgmp3-dev libmpfr-dev libmpc-dev texinfo mc autopoint
 sudo mkdir /opt
 sudo ln -s . /opt/rt-n56u/
 sudo cd /opt/rt-n56u/toolchain-mipsel
