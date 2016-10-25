@@ -1,7 +1,7 @@
 apt-get -y update
 apt-get -y install git
 cd /opt
-git clone https://github.com/kuyapp/rt-n56u.git
+git clone https://github.com/kuyapp/rt-n56u.git --depth=1
 apt-get -y install build-essential gawk pkg-config gettext automake autoconf libtool bison flex zlib1g-dev libgmp3-dev libmpfr-dev libmpc-dev texinfo mc autopoint
 cd /opt/rt-n56u/toolchain-mipsel
 ./clean_sources
